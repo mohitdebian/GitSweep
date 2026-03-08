@@ -65,13 +65,11 @@ $ gitsweep
 ---
 
 ## Instlling via npm package
-**
+
 ```
 $ npm install -g gitsweep-cli
 ```
-**
 
-**->**
 ```
 $ gitsweep
 ```
