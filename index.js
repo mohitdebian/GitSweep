@@ -97,7 +97,7 @@ async function deleteRepos(token, repos) {
 }
 
 async function main() {
-  console.log("\nGitHub Repo Cleaner\n");
+  console.log("\nGitHub GitSweep\n");
 
   const token = await getToken();
 
