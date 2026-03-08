@@ -1,20 +1,40 @@
 {
-  "name": "gitsweep",
+  "name": "gitsweep-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI tool to bulk delete GitHub repositories from the terminal.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "axios": "^1.13.6",
-    "inquirer": "^8.2.7"
-  },
   "bin": {
     "gitsweep": "./index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "git",
+    "cleanup",
+    "repository",
+    "automation",
+    "devtool"
+  ],
+  "author": "Mohit Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitdebian/gitsweep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohitdebian/gitsweep/issues"
+  },
+  "homepage": "https://github.com/mohitdebian/gitsweep",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "gitsweep-cli": "^1.0.0",
+    "inquirer": "^8.2.7"
   }
 }
