@@ -30,6 +30,7 @@ GitHub's UI forces you to delete repositories **one at a time**, navigating thro
 ## Demo
 
 ```
+$ npm install -g gitsweep-cli
 $ gitsweep
 
   GitSweep
@@ -62,6 +63,10 @@ $ gitsweep
 ```
 
 ---
+
+## Instlling via npm package
+**```$ npm install -g gitsweep-cli```**
+**->** ```$ gitsweep```
 
 ## Installation
 
